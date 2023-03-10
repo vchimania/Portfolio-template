@@ -1,0 +1,11 @@
+Model Information:
+* title:	Nintendo Game Boy (1989)
+* source:	https://sketchfab.com/3d-models/nintendo-game-boy-1989-4cbcacd032bf479bbafe102c1f6ef908
+* author:	warfalker (https://sketchfab.com/warfalker)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Nintendo Game Boy (1989)" (https://sketchfab.com/3d-models/nintendo-game-boy-1989-4cbcacd032bf479bbafe102c1f6ef908) by warfalker (https://sketchfab.com/warfalker) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -9,16 +9,16 @@ import { SectionWrapper } from '../hoc';
 const TechCard = ({ index, name, icon}) => {
   return(
     <Tilt className="xs:w-[250px] w-full">
-      <motion.div variants={fadeIn("left", "tween", 0.5*index, 0.5)} className="w-full white-pink-gradient p-[1px] rounded-[20px] shadow-card">
+      <motion.div variants={fadeIn("left", "tween", 0.2*index, 0.5)} className="w-full white-pink-gradient p-[1px] rounded-[20px] shadow-card">
         <div 
           options={{
             max:45,
             scale:1,
             speed:150
           }}  
-          className="bg-primary bg-opacity-20 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+          className="bg-primary bg-opacity-20 rounded-[20px] py-5 px-12 min-h-[240px] flex justify-evenly items-center flex-col"
         >
-          <img src={icon} alt={name} className="h-[80px]" />
+          <img src={icon} alt={name} className="h-[100px]" />
           <h3 className="text-white text-[20px] font-bold text-center">{name}</h3>
         </div>
       </motion.div>

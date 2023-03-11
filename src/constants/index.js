@@ -120,7 +120,7 @@ import {
       iconBg: "#383E56",
       date: "May 2021 - Aug 2021",
       points: [
-        "Worked on building the customer facing website - www.thebetterconstruction.com",
+        "Worked on building the customer facing website.",
         "Integrated email trigger system for lead generation by building a nodeJS server running Nodemailer.",
         "Built admin client portal and implemented google auth for login/signup using MERN stack.",
       ],

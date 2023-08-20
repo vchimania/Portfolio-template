@@ -16,10 +16,10 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 
-import konf from "./company/konf.png";
-import betterco from "./company/betterco.png";
-import hme from "./company/hme.png";
 import tesla from "./company/tesla.png";
+import ns from "./company/ns-logo.png";
+import oto from "./company/oto-logo.jpeg";
+import trukker from "./company/trukker-icon.jpg";
 
 import osm from "./osm.png";
 import crypto from "./crypto.png";
@@ -42,11 +42,11 @@ export {
   reactjs,
   redux,
   tailwind,
-  konf,
-  betterco,
-  hme,
   tesla,
   osm,
   crypto,
   today,
+  ns,
+  oto,
+  trukker,
 };

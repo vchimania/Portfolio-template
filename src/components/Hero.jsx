@@ -1,13 +1,16 @@
 import { motion } from "framer-motion";
 import { styles } from '../styles';
+import Type from "./type";
 
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
       <div className={`${styles.paddingX} absolute inset-0 top-[150px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#F9B9B4]">Imad</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I'm a self-taught Web Developer.</p>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#F9B9B4]">Vini</span></h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+             <Type />
+          </p>
         </div>
       </div>
       <div className="absolute bottom-12 w-full flex justify-center items-center">

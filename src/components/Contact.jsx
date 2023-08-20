@@ -11,7 +11,6 @@ const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
-    email: "",
     message: "",
   });
 
@@ -32,17 +31,12 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
-      .send(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "Imad Sharieff",
-          from_email: form.email,
-          to_email: "imad.shaff@gmail.pro",
-          message: form.message,
-        },
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+       emailjs
+      .sendForm(
+        "service_dsff3m3",
+        "template_zj8t2yk",
+        e.target,
+        "psvDqWKpJChroTZr2"
       )
       .then(
         () => {
@@ -51,14 +45,12 @@ const Contact = () => {
 
           setForm({
             name: "",
-            email: "",
             message: "",
           });
         },
         (error) => {
           setLoading(false);
           console.error(error);
-
           alert("Ahh, something went wrong. Please try again.");
         }
       );
@@ -91,22 +83,13 @@ const Contact = () => {
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Email</span>
-            <input
-              type='email'
-              name='email'
-              value={form.email}
-              onChange={handleChange}
-              className='bg-[#808080] backdrop-filter backdrop-blur-md bg-opacity-30 py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
-            />
-          </label>
-          <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Message</span>
             <textarea
               rows={7}
               name='message'
               value={form.message}
               onChange={handleChange}
+              placeholder="Drop your email or contact number"
               className='bg-[#808080] backdrop-filter backdrop-blur-md bg-opacity-30 py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>

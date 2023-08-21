@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import vercel from "./vercel.png";
 
 import css from "./tech/css.png";
 import html from "./tech/html.png";
@@ -22,7 +23,7 @@ import oto from "./company/oto-logo.jpeg";
 import trukker from "./company/trukker-icon.jpg";
 
 import osm from "./osm.png";
-import crypto from "./crypto.png";
+import shoppingcart from "./shopping-cart.png";
 import today from "./today.png";
 
 export {
@@ -44,9 +45,10 @@ export {
   tailwind,
   tesla,
   osm,
-  crypto,
   today,
   ns,
   oto,
   trukker,
+  shoppingcart,
+  vercel,
 };

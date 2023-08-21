@@ -6,11 +6,11 @@ import {
   tailwind,
   nextjs,
   osm,
-  crypto,
   today,
   oto,
   ns,
   trukker,
+  shoppingcart,
 } from "../assets";
 
 export const navLinks = [
@@ -122,7 +122,7 @@ const projects = [
       "OpenStreetMap-based Application to search for any location with an administrative boundary marking.",
     tags: [
       {
-        name: "react",
+        name: "reactJS",
         color: "blue-text-gradient",
       },
       {
@@ -133,14 +133,19 @@ const projects = [
         name: "openstreetmaps",
         color: "pink-text-gradient",
       },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
     ],
     image: osm,
     source_code_link: "https://github.com/vchimania/Maps-Search",
+    hosted_link: "https://maps-search.vercel.app/",
   },
   {
-    name: "Crypto Tracker",
+    name: "Shopping Cart",
     description:
-      "Web application that enables users to search and Track Crypto prices, integrated with coingecko API.",
+      "Web application that enables users to add,edit and delete products and see the total number of items in cart",
     tags: [
       {
         name: "react",
@@ -155,8 +160,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: crypto,
-    source_code_link: "https://github.com/shazzy152/crypto-tracker",
+    image: shoppingcart,
+    source_code_link: "https://github.com/vchimania/Shopping-Cart-React",
+    hosted_link: "https://cart-react23.netlify.app/",
   },
   {
     name: "Magazine Landing page",
